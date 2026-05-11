@@ -133,7 +133,7 @@ html, body {
 .content {
     flex: 1;
     overflow-y: auto;
-    background-color: #231717;
+    background-color: #251b1b;
     min-width: 0;
 }
 
@@ -226,4 +226,52 @@ html, body {
     border-radius: 2px;
     color: #acd0c2;
     margin: 3px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-right: 100px;
+}
+
+.field-label {
+    font-family: cursive;
+    font-size: 22px;
+    letter-spacing: 1.92px;
+    color: #3b598b;
+    opacity: 0.9;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.req {
+    color: #D04040;
+    font-size: 21px;
+}
+
+.field-input {
+    background-color: #3b598b;
+    border: 0.5px solid #074d66;
+    border-radius: 2px;
+    padding: 5px 9px;
+    font-size: 20px;
+    color: #c3dbe7;
+    outline: none;
+}
+
+.field-input:focus {
+    border: 0.5px solid #4a8da7;
+}
+
+.field-input::placeholder {
+    color: #acd0c2;
+    opacity: 0.5;
 }
