@@ -178,3 +178,16 @@ html, body {
     border-bottom: 0.5px solid #074d66;
     margin-bottom: 10px;
 }
+
+.drop-zone {
+    border: 1px dashed #074d66;
+    border-radius: 2px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    background-color: #3b598b;
+    text-align: center;
+}
