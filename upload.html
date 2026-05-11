@@ -37,6 +37,30 @@
                     <span class="section-title">Upload to Library</span>
                     <span class="section-sub">Fields marked * are required</span>
                 </div>
+
+                <form class="form-content" action="" method="post">
+
+                    <!--1 - Audio File-->
+                    <fieldset style="border: none; padding: 0;">
+                        <legend class="form-section">I - Audio File</legend>
+                        <label class="drop-zone" for="audioFile" role="button">
+                            <div class="drop-icon">✦</div>
+                            <div class="drop-title">Drop files here</div>
+                            <div class="drop-sub">or click to open the file picker</div>
+                            <div class="drop-row" id="drop-format" role="list">
+                                <span class="drop-item" role="listitem">MP3</span>
+                                <span class="drop-item" role="listitem">FLAC</span>
+                                <span class="drop-item" role="listitem">WAV</span>
+                                <span class="drop-item" role="listitem">AAC</span>
+                                <span class="drop-item" role="listitem">OGG</span>
+                            </div>
+                        </label>
+                        <input type="file" id="audioFile" name="audioFile"
+                            accept=".mp3, .flac, .wav, .aac, .ogg, audio/*"
+                            style="position: absolute; width: 1px; height: 1px; opacity: 0; overflow: hidden;">
+                    </fieldset>
+
+                </form>
             </div>
             </div>
         </div>

@@ -36,6 +36,7 @@ html, body {
     letter-spacing: 3.95px;
     display: flex;
     align-items: center;
+    text-transform: uppercase;
     gap: 16px;
 }
 
@@ -89,6 +90,7 @@ html, body {
     font-size: 18px;
     letter-spacing: 2.88px;
     color: #3b598b;
+    text-transform: uppercase;
     padding: 0 14px 6px;
     opacity: 0.8;
 }
@@ -149,6 +151,7 @@ html, body {
     font-size: 23px;
     color: #acd0c2;
     display: flex;
+    text-transform: uppercase;
     letter-spacing: 2.6px;
 }
 
