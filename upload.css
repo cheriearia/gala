@@ -160,3 +160,21 @@ html, body {
     color: #3b598b;
     font-style: italic;
 }
+
+.form-content {
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-section {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    letter-spacing: 2.4px;
+    color: #3b598b;
+    opacity: 0.85;
+    padding-bottom: 6px;
+    border-bottom: 0.5px solid #074d66;
+    margin-bottom: 10px;
+}
