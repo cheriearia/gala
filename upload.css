@@ -275,3 +275,40 @@ html, body {
     color: #acd0c2;
     opacity: 0.5;
 }
+
+.range-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.range-label {
+    font-size: 21px;
+    color: #3b598b;
+}
+
+input[type="range"] {
+    flex: 1;
+    accent-color: #537366;
+    cursor: pointer;
+}
+
+.check-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 6px;
+}
+
+.check-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 22px;
+    color: #c3dbe7;
+}
+
+.check-row input[type="checkbox"] {
+    accent-color: #537366;
+    width: 23px;
+    height: 23px;
+}
