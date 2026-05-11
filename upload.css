@@ -116,3 +116,14 @@ html, body {
     border-left-color: #acd0c2;
     background-color: #3b598b;
 }
+
+.nav-item i {
+    font-size: 25px;
+}
+
+.divider {
+    height: 1px;
+    background-color: #3b598b;
+    margin: 10px 14px;
+    opacity: 0.5;
+}
