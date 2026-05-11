@@ -40,12 +40,70 @@
 }
 
 .track-table-body td {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1.92px;
     text-align: left;
     padding: 7px 12px;
     border-bottom: #3b598b;
     opacity: 0.8;
     font-weight: 400;
+    background-color: #3b598b;
+}
+
+.barchart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 280px;
+    width: 100%;
+    background-color: #3b598b;
+    padding: 20px 10px 40px;
+    position: relative;
+    margin: 20px;
+}
+
+.bar {
+    width: 50px;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+}
+        
+.barlabel {
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color:#acd0c2;
+}
+
+.barvalue {
+    margin-bottom: 5px;
+}
+        
+.y-axis {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    height: 280px;
+    display: flex;
+    background-color:#3b598b;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    color:#acd0c2;
+    text-align: right;
+    padding-right: 8px;
+    z-index: 10;
+}
+
+.content {
     background-color: #3b598b;
 }
