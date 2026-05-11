@@ -312,3 +312,10 @@ input[type="range"] {
     width: 23px;
     height: 23px;
 }
+
+.char-count {
+    font-size: 20px;
+    color: #3b598b;
+    text-align: right;
+    margin-top: 2px;
+}
