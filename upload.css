@@ -9,7 +9,8 @@ html, body {
 
 .frame {
     width: 100%; 
-    margin: 24px auto;
+    max-width: 1870px;
+    margin: 20px auto;
     border: 1px solid #4a8da7;
     border-radius: 4px; 
     overflow: hidden; 
@@ -32,7 +33,7 @@ html, body {
     font-family: cursive;
     font-size: 32px;
     color: #acd0c2;
-    letter-spacing: 1.92px;
+    letter-spacing: 3.95px;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -81,4 +82,37 @@ html, body {
     display: flex;
     flex-direction: column;
     padding: 14px 0;
+}
+
+.nav-selection {
+    font-family: serif;
+    font-size: 18px;
+    letter-spacing: 2.88px;
+    color: #3b598b;
+    padding: 0 14px 6px;
+    opacity: 0.8;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 14px; 
+    font-size: 23px;
+    color: #3b598b;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-left: 2px solid transparent;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: #c3dbe7;
+    background-color: #3b598b;
+}
+
+.nav-item.active {
+    color: #acd0c2;
+    border-left-color: #acd0c2;
+    background-color: #3b598b;
 }
