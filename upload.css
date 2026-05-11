@@ -1,0 +1,26 @@
+html, body {
+    background-color: #27272f;
+    color: #c3dbe7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+.frame {
+    width: 100%; 
+    margin: 24px auto;
+    border: 1px solid #acd0c2;
+    border-radius: 4px; 
+    overflow: hidden; 
+    background-color: #27272f;
+    display: flex;
+    flex-direction: column;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px; 
+    background-color: #231717;
+}
