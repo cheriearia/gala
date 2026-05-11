@@ -319,3 +319,40 @@ input[type="range"] {
     text-align: right;
     margin-top: 2px;
 }
+
+.form-footer {
+    padding: 12px 18px;
+    border-top: 1px solid #3b598b;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: #1d1313;
+    flex-shrink: 0;
+    margin-bottom: -15px;
+    margin-left: -15px;
+}
+
+.submitbtn {
+    font-family: cursive;
+    font-size: 20px;
+    letter-spacing: 2.4px;
+    padding: 7px 18px;
+    border: 1px solid #3b598b;
+    background-color: #3b598b;
+    color: #acd0c2;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.clearbtn {
+    font-family: cursive;
+    font-size: 20px;
+    letter-spacing: 1.92px;
+    padding: 7px 14px;
+    border: 1px solid #3b598b;
+    background-color: transparent;
+    color: #acd0c2;
+    border-radius: 2px;
+    cursor: pointer;
+}
