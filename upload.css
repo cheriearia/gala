@@ -127,3 +127,33 @@ html, body {
     margin: 10px 14px;
     opacity: 0.5;
 }
+
+.content {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #231717;
+    min-width: 0;
+}
+
+.section-header {
+    padding: 14px 18px 10px;
+    border-bottom: 1px solid #074d66;
+    background-color: #011e48;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.section-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: #acd0c2;
+    display: flex;
+    letter-spacing: 2.6px;
+}
+
+.section-sub {
+    font-size: 21px;
+    color: #3b598b;
+    font-style: italic;
+}
