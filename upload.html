@@ -60,6 +60,53 @@
                             style="position: absolute; width: 1px; height: 1px; opacity: 0; overflow: hidden;">
                     </fieldset>
 
+                    <!--2 - Track Details-->
+                    <fieldset style="border: none; padding: 0;">
+                        <legend class="form-section">II - Track Details</legend>
+                        <div class="form-grid" style="margin-bottom: 10px;">
+                            <div class="field-group">
+                                <label class="field-label" for="trackTitle">Title<span class="req">*</span></label>
+                                <input class="field-input" type="text" id="trackTitle" name="title" placeholder="House That Always Rains" maxlength="254" required>
+                            </div>
+                            <div class="field-group">
+                                <label class="field-label" for="trackArtist">Artist<span class="req">*</span></label>
+                                <input class="field-input" type="text" id="trackArtist" name="artist" placeholder="Conan Gray" maxlength="254" required>          
+                            </div>
+                        </div>
+
+                        <div class="form-grid" style="margin-bottom: 10px;">
+                            <div class="field-group">
+                                <label class="field-label" for="trackAlbum">Album</label>
+                                <input class="field-input" type="text" id="trackAlbum" name="album" placeholder="Wishbone Deluxe" maxlength="254">
+                            </div>
+                            <div class="field-group">
+                                <label class="field-label" for="trackYear">Release Year</label>
+                                <input class="field-input" type="number" id="trackYear" name="year" placeholder="2026" min="1000" max="2099">
+                            </div>
+                        </div>
+
+                        <div class="form-grid" style="margin-bottom: 10px;">
+                            <div class="field-group">
+                                <label class="field-label" for="trackGenre">Genre<span class="req">*</span></label>
+                                <select class="field-input" id="trackGenre" name="genre" required>
+                                    <option value="" disabled selected>Select a genre...</option>
+                                    <option value="pop">Pop</option>
+                                    <option value="alternative">Alternative</option>
+                                    <option value="country">Country</option>
+                                    <option value="folk">Folk</option>
+                                    <option value="acoustic">Acoustic</option>
+                                    <option value="rock">Rock</option>
+                                    <option value="rap">Rap</option>
+                                    <option value="r&b">R&B</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="field-group">
+                                <label class="field-label" for="trackDate">Date Added</label>
+                                <input class="field-input" type="date" id="trackDate" name="dateadded">
+                            </div>
+                        </div>
+                    </fieldset>
                 </form>
             </div>
             </div>

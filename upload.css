@@ -23,7 +23,7 @@ html, body {
     display: flex;
     align-items: center;
     padding: 10px 16px; 
-    background-color: #231717;
+    background-color: #1d1313;
     border-bottom: 1px solid #074d66;
     gap: 12px;
     flex-shrink: 0;
@@ -78,7 +78,7 @@ html, body {
 .navbar {
     width: 270px;
     flex-shrink: 0;
-    background-color: #231717;
+    background-color: #1d1313;
     border-right: 1px solid #074d66;
     display: flex;
     flex-direction: column;
